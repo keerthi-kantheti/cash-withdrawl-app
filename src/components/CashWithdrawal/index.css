@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.denominations-container {
+  background-color: #150b3e;
+  font-family: 'Roboto';
+  color: #c7d2fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}
+.person-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: center;
+}
+.person-logo {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 10px;
+}
+.person-name {
+  color: #d4d2db;
+  font-size: 22px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  align-items: center;
+}
+.balance-para {
+  color: #585076;
+
+  font-size: 20px;
+}
+.amount-container {
+  align-self: flex-end;
+  margin-left: 110px;
+}
+.amount {
+  color: #d4d2db;
+}
+.amount-para {
+  color: #585076;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  align-self: flex-start;
+  font-size: 26px;
+}
+.choose-sum-para {
+  color: #585076;
+  align-self: flex-start;
+}
+.value-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

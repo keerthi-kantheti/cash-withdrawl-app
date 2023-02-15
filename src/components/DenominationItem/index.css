@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  background-color: #382f5a;
+  border: 1px solid #d4d2db;
+  height: 30px;
+  width: 100px;
+
+  text-align: center;
+  margin: 10px;
+}
+.button1 {
+  background-color: #382f5a;
+  border-width: 0px;
+}
